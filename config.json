@@ -1,0 +1,43 @@
+{
+        "options": {
+                "paths": {
+                        "root": "",
+                        "styles": "styles",
+                        "fonts": "fonts/output"
+                },
+                "serveAllStyles": true,
+                "serveAllFonts": true
+        },
+        "data": {
+                "europe": {
+                        "mbtiles": "europe.mbtiles"
+                }
+        },
+        "styles": {
+                "basic": {
+                        "style": "maptiler-basic-gl-style/style.json",
+                        "tilejson": {
+                                "format": "pbf",
+                                "center": [9.76, 50.48, 3]
+                        }
+                },
+                "bright": {
+                        "style": "osm-bright-gl-style/style.json",
+                        "serve_rendered": true,
+                        "serve_data": true,
+                        "tilejson": {
+                                "format": "pbf",
+                                "center": [9.76, 50.48, 3]
+                        }
+                },
+                "toner": {
+                        "style": "maptiler-toner-gl-style/style.json",
+                        "serve_rendered": true,
+                        "serve_data": true,
+                        "tilejson": {
+                                "format": "pbf",
+                                "center": [9.76, 50.48, 3]
+                        }
+                }
+        }
+}
