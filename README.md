@@ -17,4 +17,4 @@ This repository is only providing the structure for running the tile server. It 
 
 1. Place `planet.mbtiles` in the project root
 2. Run `npm i && node ./fonts/generate.js` to generate the necessary `.pbf` files for all fonts referenced in the provided styles
-3. Run `docker run --rm -it -v $(pwd):/data -p 8081:8080 maptiler/tileserver-gl` to start the tile server on port 8081
+3. Run `docker-compose up` to start the tile server on port 8081
