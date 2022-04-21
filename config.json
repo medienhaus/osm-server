@@ -9,8 +9,8 @@
                 "serveAllFonts": true
         },
         "data": {
-                "europe": {
-                        "mbtiles": "europe.mbtiles"
+                "planet": {
+                        "mbtiles": "planet.mbtiles"
                 }
         },
         "styles": {

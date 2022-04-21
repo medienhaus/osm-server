@@ -2,7 +2,7 @@
 
 ### medienhaus/
 
-Customizable modular free and open-source environment for decentralized, distributed communication and collaboration.
+Customizable, modular, free and open-source environment for decentralized, distributed communication and collaboration without third-party dependencies.
 
 [Website](https://medienhaus.dev/) — [Twitter](https://twitter.com/medienhaus_)
 
@@ -13,6 +13,8 @@ Customizable modular free and open-source environment for decentralized, distrib
 
 ## Instructions
 
-1. Place `europe.mbtiles` in the project root
+This repository is only providing the structure for running the tile server. It assumes that you have placed a `planet.mbtiles` file in the root directory of the project. If you want to know more about generating such a file (or smaller variants that only include certain parts of the planet) check out the [onthegomap/planetiler](https://github.com/onthegomap/planetiler) repository.
+
+1. Place `planet.mbtiles` in the project root
 2. Run `npm i && node ./fonts/generate.js` to generate the necessary `.pbf` files for all fonts referenced in the provided styles
 3. Run `docker run --rm -it -v $(pwd):/data -p 8081:8080 maptiler/tileserver-gl` to start the tile server on port 8081

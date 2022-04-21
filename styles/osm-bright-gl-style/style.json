@@ -17,7 +17,7 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "mbtiles://europe.mbtiles"
+      "url": "mbtiles://planet.mbtiles"
     }
   },
   "sprite": "{styleJsonFolder}/sprite",
