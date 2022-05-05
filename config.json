@@ -23,7 +23,6 @@
                 },
                 "bright": {
                         "style": "osm-bright-gl-style/style.json",
-                        "serve_rendered": true,
                         "serve_data": true,
                         "tilejson": {
                                 "format": "pbf",
@@ -32,7 +31,6 @@
                 },
                 "toner": {
                         "style": "maptiler-toner-gl-style/style.json",
-                        "serve_rendered": true,
                         "serve_data": true,
                         "tilejson": {
                                 "format": "pbf",
