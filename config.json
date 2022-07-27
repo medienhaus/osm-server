@@ -47,6 +47,13 @@
                                 "format": "pbf",
                                 "center": [9.76, 50.48, 3]
                         }
+                },
+                "udk-rundgang-2022": {
+                        "style": "udk-rundgang-2022/style.json",
+                        "tilejson": {
+                                "format": "pbf",
+                                "center": [9.76, 50.48, 3]
+                        }
                 }
         }
 }
