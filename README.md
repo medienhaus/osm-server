@@ -2,9 +2,9 @@
 
 ### medienhaus/
 
-Customizable, modular, free and open-source environment for decentralized, distributed communication and collaboration without third-party dependencies.
+Customizable, modular, free and open-source environment for decentralized, distributed communication and collaboration.
 
-[Website](https://medienhaus.dev/) — [Twitter](https://twitter.com/medienhaus_)
+[Website](https://medienhaus.dev/) — [Fediverse](https://chaos.social/@medienhaus)
 
 <br>
 
